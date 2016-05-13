@@ -2,6 +2,77 @@
 1.http://www.google.com/design/spec/style/color.html#color-color-palette for main blue
 2.http://coolors.co/app/397367-63ccca-337ab7-05b2dc-35393c for rest
 */
+h1{
+  margin:0px;
+}
+.map {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    display: block;
+}
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+.box {
+  margin-left: 0px;
+}
+.textleft {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50vw;
+  padding:40px;
+  font-size: 60px;
+}
+.textright {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50vw;
+  padding:40px;
+  margin-left:50vw;
+  font-size: 60px;
+}
+#first {
+  background: url("first.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#second {
+  background: url("second.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#second {
+  background-color: red;
+}
+html, body {
+    height: 100%;
+}
+#bar {
+  background-color:#2e2e2e;
+  margin: 0;
+  border: 0;
+}
+.navbar.navbar-default.nomargin.navbar-static-top .nav.navbar-nav{
+    text-align: color: blue;
+}
+#logo {
+  color: #b0b0b0;
+}
+.topthing{
+  color:#F2F2F2;
+}
 html {
   margin:0px;
   padding:0px;

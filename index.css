@@ -37,7 +37,34 @@ h1{
   width: 50vw;
   padding:40px;
   margin-left:50vw;
-  font-size: 60px;
+  font-size: 50px;
+}
+.textspecial {
+  color:#474747;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 10%;
+  transform: translateY(-25%);
+  width: 30vw;
+  margin-left: 7vw;
+  padding:40px;
+  font-size: 2vw;
+}
+.texttitle {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 7%;
+  transform: translateY(-7%);
+  padding:40px;
+  font-size: 3vw;
+}
+#title{
+  background: url("title.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #first {
   background: url("first.jpg") no-repeat center center scroll;
@@ -53,8 +80,30 @@ h1{
   -o-background-size: cover;
   background-size: cover;
 }
-#second {
-  background-color: red;
+#third {
+  background: url("third.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*#thirdpicture{
+  background: url("thirdpicture.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 50vw;
+  height: 100vh;
+  min-height: 100%;
+  display: inline-block;
+}*/
+#fourth {
+  background: url("fourth.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 html, body {
     height: 100%;
